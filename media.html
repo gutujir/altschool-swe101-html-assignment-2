@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Media Page</title>
+  </head>
+  <body>
+    <h1>Welcome to My Media Page</h1>
+
+    <p>
+      My name is Gutu Imana, a passionate backend engineer in training at
+      AltSchool Africa. I believe in continuous learning, innovation, and using
+      technology to solve real-world problems.
+    </p>
+
+    <!-- Picture Element with Different Sources for Responsiveness -->
+    <h2>My Profile Picture</h2>
+    <picture>
+      <source srcset="static/image-large.jpg" media="(min-width: 1024px)" />
+      <source srcset="static/image-medium.jpg" media="(min-width: 768px)" />
+      <source srcset="static/image-small.jpg" media="(max-width: 767px)" />
+      <img src="fallback-image.jpeg" alt="My Vision" />
+    </picture>
+
+    <p><a href="table.html">Go to Table Page</a></p>
+  </body>
+</html>
